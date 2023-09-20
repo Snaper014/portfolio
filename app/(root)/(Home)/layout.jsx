@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
       <Navbar />
       <main
         id="bgColor"
-        className="w-full z-[-1] flex flex-col relative top-[10vh] h-full"
+        className="w-full z-[0] flex flex-col relative top-[10vh] h-full"
       >
         {children}
         <Contact />
