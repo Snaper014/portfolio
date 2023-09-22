@@ -6,7 +6,6 @@ import Morpion from "../public/Morpion-image.png";
 import TrackerTimes from "../public/tracker-desktop.png";
 import { CardProject } from "./CardProject";
 
-//changer fav.ico;
 
 function Project() {
   return (
