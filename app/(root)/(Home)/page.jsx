@@ -2,13 +2,16 @@ import React from "react";
 import Image from "next/image";
 import PhotoProfil from "../../../assets/NewPictureProfil.png";
 import Project from "@/components/Project";
-
-// import button useclient
+import Skill from "@/components/Skill";
+import { ContactButton } from "@/components/Buttons";
 
 function Page() {
   return (
     <>
-      <section className="w-full h-[90vh] mb-3 max-lg:h-full flex flex-row flex-nowrap border border-black max-lg:flex-col">
+      <section
+        id="Home"
+        className="bg-Home w-full h-[90vh] mb-14 max-lg:h-full flex flex-row flex-nowrap max-lg:flex-col"
+      >
         <div className="w-[50%] h-full flex items-center justify-center max-lg:w-full max-lg:mb-[25px]">
           <Image
             src={PhotoProfil}
@@ -29,12 +32,11 @@ function Page() {
           <h2 className="text-[2em] max-md:text-[1em] font-[700] max-md:text-center">
             REACT
           </h2>
-          <button className="mt-[35px] text-center text-[24px] px-4 py-2 rounded-[40px] bg-black tracking-wide font-[500] text-white mx-2">
-            Contact me
-          </button>
+          <ContactButton />
         </div>
       </section>
       <Project />
+      <Skill />
     </>
   );
 }
