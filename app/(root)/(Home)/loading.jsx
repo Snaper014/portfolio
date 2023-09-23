@@ -3,10 +3,9 @@ import React from "react";
 function Loading() {
   return (
     <div
-      className="bg-Home
-   text-white text-[500] text-3xl w-full h-[90vh] flex items-center justify-center"
+      className="text-white text-[500] text-3xl w-full h-[90vh] flex items-center justify-center"
     >
-      loading...
+      <h2>loading...</h2>
     </div>
   );
 }
