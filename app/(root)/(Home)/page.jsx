@@ -3,6 +3,7 @@ import Image from "next/image";
 import PhotoProfil from "../../../assets/NewPictureProfil.png";
 import Project from "@/components/Project";
 import Skill from "@/components/Skill";
+import Contact from "@/components/Contact";
 import { ContactButton } from "@/components/Buttons";
 
 function Page() {
@@ -37,6 +38,7 @@ function Page() {
       </section>
       <Project />
       <Skill />
+      <Contact />
     </>
   );
 }
