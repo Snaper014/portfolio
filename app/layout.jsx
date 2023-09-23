@@ -2,7 +2,7 @@ import "./globals.css";
 import { Ubuntu } from "next/font/google";
 
 export const metadata = {
-  title: "Portfolio",
+  title: "Portfolio VICO Nelson",
   description: "Portfolio Vico Nelson",
 };
 
