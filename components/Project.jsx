@@ -83,12 +83,9 @@ function Project() {
         image={PicturePortfolio}
         title="Portfolio"
         link="/"
-        description="Le projet d'application de gestion de tâches est un outil efficace 
-          développé avec React et Vite. Elle permet aux utilisateurs d'ajouter, de modifier
-          et de supprimer des tâches, de les classer par catégorie et de suivre leur 
-          progression. L'interface intuitive et réactive garantit une expérience 
-          utilisateur fluide. Restez organisé, améliorez votre productivité et 
-          gérez vos tâches avec simplicité grâce à notre application de gestion de tâches."
+        description="Vous êtes actuellement sur l'un des projets que j'ai réalisés;
+        un portfolio pour présenter les différents projets qui ont été faits. J'ai utilisé
+        les stacks NEXTJS et tailwind CSS."
       />
     </section>
   );
