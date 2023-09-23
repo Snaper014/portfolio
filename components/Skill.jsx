@@ -5,7 +5,7 @@ import { techs } from "./techs";
 function Skill() {
   return (
     <section id="Skills" className="w-full mb-14 flex flex-col items-center">
-      <h1 className="text-[#38c9c6] text-[48px] text-[700] self-center mb-4">
+      <h1 className="text-[#10BD99] text-[48px] text-[700] self-center mb-4">
         Skills
       </h1>
       <div

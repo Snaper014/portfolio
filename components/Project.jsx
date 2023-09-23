@@ -14,7 +14,7 @@ function Project() {
       id="Projects"
       className="h-[auto] mb-14 max-lg:h-full w-full flex flex-col mt-2"
     >
-      <h1 className="text-[#38c9c6] text-[48px] text-[700] self-center mb-4">
+      <h1 className="text-[#10BD99] text-[48px] text-[700] self-center mb-4">
         Projects
       </h1>
       <CardProject

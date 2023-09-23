@@ -65,6 +65,7 @@ export function Buttons() {
             />
             {Buttons.map((name, index) => (
               <button
+                aria-label={`naviguation towards section ${name}`}
                 key={index}
                 onClick={() => {
                   setSelect(name);
@@ -90,6 +91,7 @@ export const ContactButton = () => {
   return (
     <button
       onClick={ScrollDown}
+      aria-label="naviguation towards form"
       className="mt-[35px] text-center text-[24px] px-4 py-2 rounded-[40px] bg-black tracking-wide font-[500] text-white mx-2"
     >
       Contact me

@@ -14,7 +14,7 @@ export const CardProject = ({ image, title, link, description }) => {
         />
       </div>
       <div className="w-[60%] max-lg:w-full h-full flex flex-col">
-        <h2 className="text-[#38c9c6] w-full text-[22px] mb-2 font-[700] text-center">
+        <h2 className="text-[#10BD99] w-full text-[22px] mb-2 font-[700] text-center">
           {title}
         </h2>
         <p className="w-full text-[18px] max-sm:0.80em font-[700]">
@@ -24,6 +24,7 @@ export const CardProject = ({ image, title, link, description }) => {
           href={`${link}`}
           target="_blank"
           rel="noopener noreferrer"
+          aria-label={`link towards the website ${title}`}
           className="w-[30%] max-sm:w-full self-center mt-[10px] text-center text-[24px] px-4 py-2 rounded-[40px] bg-black tracking-wide font-[500] text-white mx-2"
         >
           Lien vers le site

@@ -56,7 +56,7 @@ function Contact() {
 
   return (
     <section id="Contact" className="w-full mb-14 flex flex-col items-center">
-      <h1 className="text-[#38c9c6] text-[48px] text-[700] self-center mb-4">
+      <h1 className="text-[#10BD99] text-[48px] text-[700] self-center mb-4">
         Contact
       </h1>
       <div className="flex flex-grow flex-nowrap gap-2 mb-4 max-md:gap-10">
@@ -64,6 +64,7 @@ function Contact() {
           href="https://github.com/Snaper014"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="link towards website github"
         >
           <DiGithubBadge color="black" fontSize={40} />
         </a>
@@ -71,13 +72,14 @@ function Contact() {
           <button
             onClick={() => setmessage(true)}
             className="flex flex-row gap-1"
+            aria-label="Copy email"
           >
             <AiOutlineMail fontSize={40} />
           </button>
         </CopyToClipboard>
       </div>
       {message ? (
-        <span className="mb-8 text-[#38c9c6] font-[700] tracking-wide">
+        <span className="mb-8 text-[#10BD99] font-[700] tracking-wide">
           L'email a été copier avec succès.
         </span>
       ) : null}
@@ -134,7 +136,8 @@ function Contact() {
         <button
           type="submit"
           name="submit"
-          className="self-center bg-[#38c9c6] rounded-[40px] w-[120px] h-[50px]"
+          aria-label="submit form"
+          className="self-center bg-[#10BD99] text-[#F8F8F8] rounded-[40px] w-[120px] h-[50px]"
         >
           Envoyer
         </button>
@@ -169,6 +172,7 @@ function Contact() {
                     : "Une erreur s'est produit lors de l'envoie des vos informations, veuillez essayez ultérieument."}
                 </p>
                 <button
+                  aria-label="confirmation"
                   onClick={() =>
                     setnotification({
                       display: false,
@@ -177,7 +181,7 @@ function Contact() {
                     })
                   }
                   className={`text-white 
-                  ${notification.sucess ? "bg-[#38c9c6]" : "bg-[#E13232]"}
+                  ${notification.sucess ? "bg-[#10BD99]" : "bg-[#E13232]"}
                    rounded-md p-1 w-24`}
                 >
                   OK

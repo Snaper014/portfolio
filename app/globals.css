@@ -14,17 +14,17 @@ body{
   scroll-behavior: smooth;
 }
 textarea:focus{
-  outline: 3px solid #38c9c6;
+  outline: 3px solid #10BD99;
 }
 input:focus{
-  outline: 3px solid #38c9c6;
+  outline: 3px solid #10BD99;
 }
 .bg-Color{
-  background-color: #38c9c6;
+  background-color: #10BD99;
 }
 .bg-Home{
-  background-image: linear-gradient(to top, #f8f8f8, #e6eaf9, #cae0fa, #a3d7f6, #72d0ec, #59cde4, #3dcada, #18c7cd, #22c8cb, #2bc8c9, #32c9c8, #38c9c6);
-  background-color: #38c9c6;
+  background-image: linear-gradient(to top, #f8f8f8, #e1e9fa, #b9def9, #84d6ee, #46cdd4, #2ac8c3, #11c3af, #10bd99, #10bd99, #10bd99, #10bd99, #10bd99);
+  background-color: #10BD99;
   background-repeat: no-repeat;
 }
 .shadow-background{
