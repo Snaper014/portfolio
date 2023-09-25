@@ -27,7 +27,8 @@ function Project() {
         expérience similaire à celle du site Web YouTube actuel.
         L'application est construite avec React et utilise les technologies
         Web modernes pour fournir une interface utilisateur fluide et
-        réactive. Il récupère les données vidéo à partir d'un exemple d'API
+        réactive. L'application est responsive pour une meilleur expérience utilisateur 
+        sur diffèrents écrans .Il récupère les données vidéo à partir d'un exemple d'API
         et les affiche dans une présentation familière, comprenant des
         vignettes vidéo, des titres et des descriptions."
       />
@@ -40,7 +41,8 @@ function Project() {
         utilisateurs peuvent filtrer les drapeaux par région et effectuer
         des recherches précises à l'aide d'une barre de recherche. Cliquer
         sur un drapeau vous redirige vers une page dédiée avec plus de
-        détails sur le pays. Ce projet a été créé avec Vite, React et
+        détails sur le pays. L'application est responsive pour une meilleur expérience utilisateur 
+        sur diffèrents écrans. Ce projet a été créé avec Vite, React et
         Tailwind CSS, ce qui en fait une application Web moderne et
         réactive."
       />
