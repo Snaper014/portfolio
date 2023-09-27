@@ -95,7 +95,8 @@ function Contact() {
           required
           value={query.name}
           onChange={(e) => handleParam(e)}
-          className="rounded-sm max-md:px-2 h-[48px] w-[500px] max-md:w-[97%]"
+          className="border border-solid border-black 
+          rounded-md pl-2 h-[48px] w-[500px] max-md:w-[97%]"
           placeholder="Veuillez entrez votre nom"
         />
         <label className="max-md:self-start max-md:px-2 px-text-[700] text-[1.4em]">
@@ -107,7 +108,8 @@ function Contact() {
           required
           value={query.email}
           onChange={(e) => handleParam(e)}
-          className="rounded-sm h-[48px] w-[500px] max-md:w-[97%]"
+          className="border border-solid border-black 
+          rounded-md pl-2 h-[48px] w-[500px] max-md:w-[97%]"
           placeholder="Veuillez entrez votre email"
         />
         <label className="max-md:self-start max-md:px-2 text-[700] text-[1.4em]">
@@ -118,7 +120,8 @@ function Contact() {
           name="phone"
           value={query.phone}
           onChange={(e) => handleParam(e)}
-          className="rounded-sm h-[48px] w-[500px] max-md:w-[97%]"
+          className="border border-solid border-black 
+          rounded-md pl-2 h-[48px] w-[500px] max-md:w-[97%]"
           placeholder="Veuillez entrez votre numéro de téléphone"
         />
         <label className="max-md:self-start max-md:px-2 text-[700] text-[1.4em]">message: </label>
@@ -128,7 +131,8 @@ function Contact() {
           required
           value={query.textarea}
           onChange={(e) => handleParam(e)}
-          className="rounded-sm h-[150px] w-[500px] mb-3 max-md:w-[97%]"
+          className=" border border-solid border-black 
+          rounded-md pl-2 h-[150px] w-[500px] mb-3 max-md:w-[97%]"
           minLength="1"
           maxLength="700"
           placeholder="Veuillez entrez votre message"
