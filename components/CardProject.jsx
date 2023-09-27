@@ -25,7 +25,7 @@ export const CardProject = ({ image, title, link, description }) => {
           target="_blank"
           rel="noopener noreferrer"
           aria-label={`link towards the website ${title}`}
-          className="w-[30%] max-sm:w-full self-center mt-[10px] text-center text-[24px] px-4 py-2 rounded-[40px] bg-black tracking-wide font-[500] text-white mx-2"
+          className="w-[30%] max-sm:w-11/12 self-center mt-[10px] text-center text-[24px] px-4 py-2 rounded-[40px] bg-black tracking-wide font-[500] text-white mx-2"
         >
           Lien vers le site
         </a>

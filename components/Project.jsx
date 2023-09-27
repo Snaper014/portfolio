@@ -12,7 +12,7 @@ function Project() {
   return (
     <section
       id="Projects"
-      className="h-[auto] mb-14 max-lg:h-full w-full flex flex-col mt-2"
+      className="mb-14 max-lg:h-full w-full flex flex-col"
     >
       <h1 className="text-[#10BD99] text-[48px] text-[700] self-center mb-4">
         Projects

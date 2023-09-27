@@ -11,7 +11,7 @@ function Page() {
     <>
       <section
         id="Home"
-        className="bg-Home w-full h-[90vh] mb-14 flex flex-row flex-nowrap max-lg:flex-col"
+        className="bg-Home w-full lg:h-[90vh] mb-14 flex flex-row flex-nowrap max-lg:flex-col max-lg:flex-wrap"
       >
         <div className="w-[50%] h-full flex items-center justify-center max-lg:w-full max-lg:mb-[25px]">
           <Image
