@@ -4,6 +4,7 @@ import PhotoProfil from "../../../assets/NewPictureProfil.png";
 import Project from "@/components/Project";
 import Skill from "@/components/Skill";
 import Contact from "@/components/Contact";
+import { About } from "@/components/About";
 import { ContactButton } from "@/components/Buttons";
 
 function Page() {
@@ -36,6 +37,7 @@ function Page() {
           <ContactButton />
         </div>
       </section>
+      <About />
       <Project />
       <Skill />
       <Contact />

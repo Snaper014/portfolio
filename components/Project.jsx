@@ -19,21 +19,22 @@ function Project() {
       <CardProject
         image={PictureYoutube}
         title="Youtube Clone"
+        GithubLink="https://github.com/Snaper014/Clone_Youtube"
         link="https://clone-youtube-liard.vercel.app/"
-        description="Ce projet est un clone de la populaire plateforme de partage de
-        vidéos YouTube. Il permet aux utilisateurs de visualiser et de
-        rechercher des vidéos, de les regarder et de profiter d'une
-        expérience similaire à celle du site Web YouTube actuel.
-        L'application est construite avec React et utilise les technologies
-        Web modernes pour fournir une interface utilisateur fluide et
-        réactive. L'application est responsive pour une meilleur expérience utilisateur 
-        sur diffèrents écrans .Il récupère les données vidéo à partir d'un exemple d'API
-        et les affiche dans une présentation familière, comprenant des
-        vignettes vidéo, des titres et des descriptions."
+        description="Ce projet est une réplique de la célèbre plateforme de partage de vidéos YouTube, enrichi par l'intégration d'une base de données MongoDB et de Node.js. Il offre aux utilisateurs la possibilité de parcourir, rechercher, visionner et apprécier des vidéos, offrant ainsi une expérience immersive similaire à celle du site YouTube actuel.
+
+        Construite avec React et alimentée par les dernières technologies web, l'application garantit une interface utilisateur fluide et réactive. Son design responsive assure une expérience optimale sur divers appareils, offrant ainsi une flexibilité d'utilisation.
+        
+        La base de données MongoDB ajoute une dimension supplémentaire au projet, permettant aux utilisateurs de liker, disliker, créer des playlists et de s'abonner à d'autres utilisateurs. Ces fonctionnalités personnalisées sont intégrées de manière transparente, offrant une expérience utilisateur plus interactive et engageante.
+        
+        Les données vidéo sont récupérées à partir d'une API exemplaire et présentées dans un agencement familier comprenant des vignettes vidéo, des titres et des descriptions. Cette intégration de base de données donne vie à des fonctionnalités sociales avancées, permettant aux utilisateurs de personnaliser leur expérience et de partager leurs préférences.
+        
+        Avec cette évolution du projet, nous visons à offrir une expérience YouTube plus dynamique, mettant l'accent sur la personnalisation et l'interaction sociale."
       />
       <CardProject
         image={PictureFlag}
         title="FrontEnd Mentor API Flag"
+        GithubLink="https://github.com/Snaper014/challenge-frontend-mentor"
         link="https://front-end-mentor-rest-countries-eta.vercel.app/"
         description="Le projet REST Countries API Flag est une application Web qui
         fournit une collection complète de drapeaux du monde entier. Les
@@ -48,6 +49,7 @@ function Project() {
       <CardProject
         image={PictureTorbes}
         title="Forbes contact Clone"
+        GithubLink="https://github.com/Snaper014/contact-clone-forbes"
         link="https://contact-clone-forbes.vercel.app/"
         description="Ce projet est un clone de la page de contact de Forbes. Conçu avec
           HTML, CSS et JavaScript, il reproduit l'esthétique de Forbes tout en
@@ -62,6 +64,7 @@ function Project() {
       <CardProject
         image={Morpion}
         title="Jeux du Morpion"
+        GithubLink="https://github.com/Snaper014/TicTacToeGame"
         link="https://tic-tac-toe-game-gules.vercel.app/"
         description="Il s'agit d'un simple jeu Tic-Tac-Toe (Morpion) implémenté en 
           JavaScript pur. Le jeu permet à deux joueurs de s'affronter à tour de rôle pour 
@@ -72,6 +75,7 @@ function Project() {
       <CardProject
         image={TrackerTimes}
         title="Gestionaire de tâches"
+        GithubLink="https://github.com/Snaper014/Gestionnaire-Taches"
         link="https://gestionnaire-taches.vercel.app/"
         description="Le projet d'application de gestion de tâches est un outil efficace 
           développé avec React et Vite. Elle permet aux utilisateurs d'ajouter, de modifier
