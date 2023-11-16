@@ -21,15 +21,26 @@ function Project() {
         title="Youtube Clone"
         GithubLink="https://github.com/Snaper014/Clone_Youtube"
         link="https://clone-youtube-liard.vercel.app/"
-        description="Ce projet est une réplique de la célèbre plateforme de partage de vidéos YouTube, enrichi par l'intégration d'une base de données MongoDB et de Node.js. Il offre aux utilisateurs la possibilité de parcourir, rechercher, visionner et apprécier des vidéos, offrant ainsi une expérience immersive similaire à celle du site YouTube actuel.
-
-        Construite avec React et alimentée par les dernières technologies web, l'application garantit une interface utilisateur fluide et réactive. Son design responsive assure une expérience optimale sur divers appareils, offrant ainsi une flexibilité d'utilisation.
-        
-        La base de données MongoDB ajoute une dimension supplémentaire au projet, permettant aux utilisateurs de liker, disliker, créer des playlists et de s'abonner à d'autres utilisateurs. Ces fonctionnalités personnalisées sont intégrées de manière transparente, offrant une expérience utilisateur plus interactive et engageante.
-        
-        Les données vidéo sont récupérées à partir d'une API exemplaire et présentées dans un agencement familier comprenant des vignettes vidéo, des titres et des descriptions. Cette intégration de base de données donne vie à des fonctionnalités sociales avancées, permettant aux utilisateurs de personnaliser leur expérience et de partager leurs préférences.
-        
-        Avec cette évolution du projet, nous visons à offrir une expérience YouTube plus dynamique, mettant l'accent sur la personnalisation et l'interaction sociale."
+        description="Ce projet est une réplique de la célèbre plateforme de 
+        partage de vidéos YouTube, enrichi par l'intégration d'une base de données 
+        MongoDB et de Node.js. Il offre aux utilisateurs la possibilité de parcourir, 
+        rechercher, visionner et apprécier des vidéos, offrant ainsi une expérience 
+        immersive similaire à celle du site YouTube actuel. Construite avec React 
+        et alimentée par les dernières technologies web, l'application garantit 
+        une interface utilisateur fluide et réactive. Son design responsive assure 
+        une expérience optimale sur divers appareils, offrant ainsi une flexibilité 
+        d'utilisation. La base de données MongoDB ajoute une dimension supplémentaire 
+        au projet, permettant aux utilisateurs de liker, disliker, créer des playlists
+        et de s'abonner à d'autres utilisateurs. Ces fonctionnalités personnalisées 
+        sont intégrées de manière transparente, offrant une expérience utilisateur 
+        plus interactive et engageante. Les données vidéo sont récupérées à partir 
+        d'une API exemplaire et présentées dans un agencement familier comprenant 
+        des vignettes vidéo, des titres et des descriptions. Cette intégration 
+        de base de données donne vie à des fonctionnalités sociales avancées, 
+        permettant aux utilisateurs de personnaliser leur expérience et de partager 
+        leurs préférences. Avec cette évolution du projet, nous visons à offrir une 
+        expérience YouTube plus dynamique, mettant l'accent sur la personnalisation 
+        et l'interaction sociale."
       />
       <CardProject
         image={PictureFlag}
