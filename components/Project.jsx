@@ -20,7 +20,7 @@ function Project() {
       <CardProject
         image={PictureYoutube}
         title="Youtube Clone"
-        link="https://clone-youtube-gold.vercel.app/"
+        link="https://clone-youtube-liard.vercel.app/"
         description="Ce projet est un clone de la populaire plateforme de partage de
         vidéos YouTube. Il permet aux utilisateurs de visualiser et de
         rechercher des vidéos, de les regarder et de profiter d'une

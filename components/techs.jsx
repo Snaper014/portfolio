@@ -1,11 +1,12 @@
 import {
   DiHtml5,
   DiCss3,
-  DiGithubBadge,
   DiJsBadge,
   DiReact,
 } from "react-icons/di";
-import { SiJest, SiNextdotjs, SiTailwindcss } from "react-icons/si";
+import { GiOctopus } from "react-icons/gi";
+import { SiJest, SiTailwindcss, SiMui } from "react-icons/si";
+
 
 export const techs = [
   {
@@ -39,10 +40,10 @@ export const techs = [
     ombre: "shadow-[#37BCE3]",
   },
   {
-    name: "Next JS",
-    logo: <SiNextdotjs color="black" fontSize={80} />,
-    alt: "logo NextJs",
-    ombre: "shadow-[#000000]",
+    name: "MUI",
+    logo: <SiMui color="#154CEB" fontSize={80} />,
+    alt: "logo Mui",
+    ombre: "shadow-[#154CEB]",
   },
   {
     name: "Jest",
@@ -51,9 +52,9 @@ export const techs = [
     ombre: "shadow-[#9C4196]",
   },
   {
-    name: "Github",
-    logo: <DiGithubBadge color="black" fontSize={80} />,
-    alt: "logo Github",
-    ombre: "shadow-[#494D4E]",
+    name: "React Testing Library",
+    logo: <GiOctopus color="#DF6B6B" fontSize={80} />,
+    alt: "React Testing Library",
+    ombre: "shadow-[#DF6B6B]",
   },
 ];
