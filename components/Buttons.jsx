@@ -7,7 +7,7 @@ export function Buttons() {
   const [select, setSelect] = React.useState("Home");
   const [WidthScreen, setWidthScreen] = React.useState(750);
   const [menu, setMenu] = React.useState(false);
-  const Buttons = ["Home", "About" , "Projects", "Skills", "Contact"];
+  const Buttons = ["Home", "About", "Projects", "Skills", "Contact"];
 
   const IsTranslate = () => {
     setMenu(!menu);

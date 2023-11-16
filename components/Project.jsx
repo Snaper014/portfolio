@@ -7,7 +7,6 @@ import TrackerTimes from "../public/tracker-desktop.png";
 import PicturePortfolio from "../public/image-portfolio.png";
 import { CardProject } from "./CardProject";
 
-
 function Project() {
   return (
     <section

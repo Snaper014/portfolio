@@ -40,13 +40,12 @@ function Contact() {
       body: formData,
     })
       .then((response) => {
-          if(response.redirected === false){
-            setnotification({ display: true, sucess: false, error: true });
-          }
-          else{
-            setQuery({ name: "", email: "", phone: "", textarea: "" });
-            setnotification({ display: true, sucess: true, error: false });
-          }
+        if (response.redirected === false) {
+          setnotification({ display: true, sucess: false, error: true });
+        } else {
+          setQuery({ name: "", email: "", phone: "", textarea: "" });
+          setnotification({ display: true, sucess: true, error: false });
+        }
       })
       .catch((error) => {
         console.log(error);
@@ -88,7 +87,9 @@ function Contact() {
         onSubmit={formSubmit}
         className="w-[500px] max-md:w-full max-md:justify-center max-md:items-center flex flex-col gap-4"
       >
-        <label className="max-md:self-start max-md:px-2 text-[1.4em] text-[700]">Nom :</label>
+        <label className="max-md:self-start max-md:px-2 text-[1.4em] text-[700]">
+          Nom :
+        </label>
         <input
           type="text"
           name="name"
@@ -124,7 +125,9 @@ function Contact() {
           rounded-md pl-2 h-[48px] w-[500px] max-md:w-[97%]"
           placeholder="Veuillez entrez votre numéro de téléphone"
         />
-        <label className="max-md:self-start max-md:px-2 text-[700] text-[1.4em]">message: </label>
+        <label className="max-md:self-start max-md:px-2 text-[700] text-[1.4em]">
+          message:{" "}
+        </label>
         <textarea
           type="text"
           name="textarea"

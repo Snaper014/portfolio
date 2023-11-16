@@ -1,10 +1,9 @@
-import * as React from 'react';
-
+import * as React from "react";
 
 export const About = () => {
-    return (
-        <section>
-                <p>About</p>
-        </section>
-    )
-}
+  return (
+    <section>
+      <p>About</p>
+    </section>
+  );
+};

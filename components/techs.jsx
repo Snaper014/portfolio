@@ -1,12 +1,6 @@
-import {
-  DiHtml5,
-  DiCss3,
-  DiJsBadge,
-  DiReact,
-} from "react-icons/di";
+import { DiHtml5, DiCss3, DiJsBadge, DiReact } from "react-icons/di";
 import { GiOctopus } from "react-icons/gi";
 import { SiJest, SiTailwindcss, SiMui } from "react-icons/si";
-
 
 export const techs = [
   {
