@@ -21,12 +21,6 @@ export const About = () => {
         projets personnels et de travailler en équipe sur des projets open
         source, ce qui m'a permis d'affiner ma maîtrise de React et de
         perfectionner ma capacité à résoudre des problèmes de manière créative.
-        Au-delà de mes compétences techniques, je suis également conscient de
-        l'importance de la communication et de la collaboration au sein d'une
-        équipe de développement. Ma capacité à travailler en étroite
-        collaboration avec d'autres membres de l'équipe, mes compétences en
-        gestion de projet et mon souci du détail font de moi un développeur
-        polyvalent et fiable.
       </p>
     </section>
   );
