@@ -46,7 +46,7 @@ function Project() {
         image={PictureFlag}
         title="FrontEnd Mentor API Flag"
         GithubLink="https://github.com/Snaper014/challenge-frontend-mentor"
-        link="https://front-end-mentor-rest-countries-eta.vercel.app/"
+        link="https://challenge-frontend-mentor-sand.vercel.app/"
         description="Le projet REST Countries API Flag est une application Web qui
         fournit une collection complète de drapeaux du monde entier. Les
         utilisateurs peuvent filtrer les drapeaux par région et effectuer
@@ -75,8 +75,8 @@ function Project() {
       <CardProject
         image={Morpion}
         title="Jeux du Morpion"
-        GithubLink="https://github.com/Snaper014/TicTacToeGame"
-        link="https://tic-tac-toe-game-gules.vercel.app/"
+        GithubLink="https://github.com/Snaper014/morpion"
+        link="https://morpion-tan.vercel.app/"
         description="Il s'agit d'un simple jeu Tic-Tac-Toe (Morpion) implémenté en 
           JavaScript pur. Le jeu permet à deux joueurs de s'affronter à tour de rôle pour 
           réaliser une combinaison gagnante sur le plateau de jeu. C'est un jeu classique 
@@ -86,8 +86,8 @@ function Project() {
       <CardProject
         image={TrackerTimes}
         title="Gestionaire de tâches"
-        GithubLink="https://github.com/Snaper014/Gestionnaire-Taches"
-        link="https://gestionnaire-taches.vercel.app/"
+        GithubLink="https://github.com/Snaper014/tracker-time"
+        link="https://tracker-time.vercel.app/"
         description="Le projet d'application de gestion de tâches est un outil efficace 
           développé avec React et Vite. Elle permet aux utilisateurs d'ajouter, de modifier
           et de supprimer des tâches, de les classer par catégorie et de suivre leur 
